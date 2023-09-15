@@ -951,6 +951,10 @@ footer .logo-span {
     gap: 24px;
   }
 
+  .nav-menu {
+    padding: 0;
+  }
+
   .contact-list {
     display: flex;
     flex-wrap: wrap;
