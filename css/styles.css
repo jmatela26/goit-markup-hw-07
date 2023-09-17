@@ -414,13 +414,11 @@ button {
 }
 
 .container {
-  width: 1200px;
+  width: 320px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
-
-
 
 .footer-page {
   padding-top: 60px;
@@ -1039,7 +1037,7 @@ footer .logo-span {
 } 
 
 
-@media only screen and (min-width: 428px) and (max-width: 767px) {
+@media only screen and (min-width: 428px) and (max-width: 767px), only screen and (min-width: 0) {
   .nav-menu,
   .contact-list {
       display: none;
