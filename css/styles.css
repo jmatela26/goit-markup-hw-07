@@ -1127,6 +1127,17 @@ footer .logo-span {
     height: 60px;
   }
 
+  .hero-section h1 {
+    display: block;
+    max-width: 320px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin: 0 auto 72px;
+  }
+
   .feature-items.list.feature-icon-antenna::before,
   .feature-items.list.feature-icon-clock::before,
   .feature-items.list.feature-icon-diagram::before,
