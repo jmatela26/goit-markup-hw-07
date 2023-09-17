@@ -1039,6 +1039,111 @@ footer .logo-span {
 } 
 
 
+@media only screen and (min-width: 428px) and (max-width: 767px) {
+  .nav-menu,
+  .contact-list {
+      display: none;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+  }
+
+  .feature-items.list.feature-icon-antenna::before,
+  .feature-items.list.feature-icon-clock::before,
+  .feature-items.list.feature-icon-diagram::before,
+  .feature-items.list.feature-icon-astronaut::before,
+  .values-section {
+    display: none;
+  }
+
+  .feature-section-list {
+    width: 100%;
+    min-height: 120px;
+    gap: 72px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .features-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
+
+
+  .our-team-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 72px;
+  }
+
+  .client-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 72px 24px;
+  }
+
+  .footer-division {
+    display: flex;
+    gap: 72px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-description {
+    margin: 0 auto;
+    padding-top: 0;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .footer-description p {
+    text-align: start;
+  }
+
+  .social-media {
+    margin: 0 auto;
+  }
+
+  .social-media-title {
+    text-align: center;
+  }
+
+  .subscribe-division {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .subscribe-title {
+    margin: 0 auto;
+  }
+
+  .footer-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .menu-toggle {
     display: none;
