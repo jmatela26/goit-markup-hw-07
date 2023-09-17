@@ -1037,7 +1037,7 @@ footer .logo-span {
 } 
 
 
-@media only screen and (min-width: 428px) and (max-width: 767px), only screen and (min-width: 0) {
+@media only screen and (min-width: 428px) and (max-width: 767px), only screen and (max-width: 427px) {
   .nav-menu,
   .contact-list {
       display: none;
