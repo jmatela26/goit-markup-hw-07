@@ -1249,6 +1249,10 @@ footer .logo-span {
     margin-bottom: 0;
     margin-top: 0;
   }
+
+  .portfolio-items-list {
+    justify-content: center;
+  }
   
 }
 
