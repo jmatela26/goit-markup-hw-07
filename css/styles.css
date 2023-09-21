@@ -1176,6 +1176,10 @@ footer .logo-span {
     gap: 72px;
   }
 
+  .our-team-items {
+    margin: 0;
+  }
+
   .client-list {
     display: flex;
     flex-wrap: wrap;
